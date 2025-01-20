@@ -155,13 +155,15 @@ nav {
 	align-items: center;
 }
 
-@media screen and (max-width: 625px) {
+@media screen and (max-width: 425px) {
 	.hero {
 		display: flex;
 		flex-direction: column-reverse;
 		margin: 0px;
 		justify-content: center;
 		align-items: center;
+		overflow: hidden;
+		padding: 1rem;
 	}
 	.hero__left {
 		width: 100%;
@@ -180,6 +182,7 @@ nav {
 }
 	.hero__logos{
 		flex-wrap: wrap;
+		margin-top: 50px;
 		gap: 1rem;
 	}
 }
